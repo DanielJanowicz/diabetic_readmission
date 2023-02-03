@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-raw = pd.read_csv('data\diabetic_data.csv')
+raw = pd.read_csv('data/raw/raw_diabetic_data.csv')
 raw.dtypes
 
 ## Datatypes of the data
@@ -57,3 +57,5 @@ diabetesMed                 object
 readmitted                  object
 dtype: object
 """
+
+## Converting strings to numeric values

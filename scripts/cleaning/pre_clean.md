@@ -1,4 +1,4 @@
-## This report is based on the raw dataset of diabetic_data.csv
+## This report is based on the raw dataset of raw_diabetic_data.csv
 
 The dataset provided by the UCI Machine Learning Repository contains a lot of information; however, some of it is redundant and incorrect.  With 48 different and unique columns, there was a lot the comb through.  There are a few columns that do not contain any to little information.  Luckily, these columns do not (at first glance) seem to have a potential effect on the readmission.  There are other underlying issues with the dataset that will be addressed.
   
