@@ -8,12 +8,13 @@ This dictionary starts from the first column and proceeds down to the last one i
 - Unique ID associated with each patient 
 
 ## race
+- ? = 0
 - Caucasian = 1
 - AfricanAmerican = 2
 - Hispanic = 3
 - Asian = 4
 - Other = 5
-- ? = 6 
+
 
 ## gender
 - Unknown/Invalid - 0
