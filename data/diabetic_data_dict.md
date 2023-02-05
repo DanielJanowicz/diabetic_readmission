@@ -197,25 +197,168 @@ This dictionary starts from the first column and proceeds down to the last one i
 - Resident = 69
 
 ## num_lab_procedures
-
+- Depicted as total
 
 ## num_procedures 
-
+- Depicted as total
 
 ## num_medications
-
+- Depicted as total
 
 ## number_outpatient 
-
+- Depicted as total
 
 ## number_emergency 
-
+- Depicted as total
 
 ## number_inpatient 
-
+- Depicted as total
 
 ## diag_1-3
-***Currently Unknown***
+- ***Diagnosis codes are not available***
 
-## 
+## number_diagnoses
+- Depicted as total
 
+## max_glu_serum (Serum phospholipid fatty acid composition levels)
+- None = 0
+- Norm = 1
+- >200 = 2
+- >300 = 3
+
+## a1cresult
+- None = 0
+- Norm = 1
+- >7 = 7
+- >8 = 8
+
+## metformin 
+- No = 0
+- Steady = 1
+- Up = 10
+- Down = 5
+
+## repaglinide 
+- No = 0
+- Steady = 1
+- Up = 10
+- Down = 5
+
+## nateglinide 
+- No = 0
+- Steady = 1
+- Up = 10
+- Down = 5
+
+## chlorpropamide
+- No = 0
+- Steady = 1
+- Up = 10
+- Down = 5
+
+## glimepiride 
+- No = 0
+- Steady = 1
+- Up = 10
+- Down = 5
+
+## acetohexamide 
+- No = 0
+- Steady = 1
+
+## glipizide 
+- No = 0
+- Steady = 1
+- Up = 10
+- Down = 5
+
+## glyburide 
+- No = 0
+- Steady = 1
+- Up = 10
+- Down = 5
+
+## tolbutamide
+- No = 0
+- Steady = 1
+
+## pioglitazone 
+- No = 0
+- Steady = 1
+- Up = 10
+- Down = 5
+
+## rosiglitazone 
+- No = 0
+- Steady = 1
+- Up = 10
+- Down = 5
+
+## acarbose 
+- No = 0
+- Steady = 1
+- Up = 10
+- Down = 5
+
+## miglitol 
+- No = 0
+- Steady = 1
+- Up = 10
+- Down = 5
+
+## troglitazone
+- No = 0
+- Steady = 1
+
+## tolazamide 
+- No = 0
+- Steady = 1
+- Up = 10
+- Down = 5
+
+## examide 
+- No = 0
+
+## citoglipton 
+- No = 0
+
+## insulin
+- No = 0
+- Steady = 1
+- Up = 10
+- Down = 5
+
+## glyburide-metformin 
+- No = 0
+- Steady = 1
+- Up = 10
+- Down = 5
+
+## glipizide-metformin
+- No = 0
+- Steady = 1
+
+## glimepiride-pioglitazone 
+- No = 0
+- Steady = 1
+
+## metformin-rosiglitazone
+- No = 0
+- Steady = 1
+
+## metformin-pioglitazone 
+- No = 0
+- Steady = 1
+
+## change 
+- No = 0
+- Ch = 1
+
+## diabetesMed 
+- No = 0
+- Yes = 1
+
+## readmitted
+- NO = 0
+- <30 = 1
+- >30 = 5
