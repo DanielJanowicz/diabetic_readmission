@@ -223,14 +223,14 @@ This dictionary starts from the first column and proceeds down to the last one i
 ## max_glu_serum (Serum phospholipid fatty acid composition levels)
 - None = 0
 - Norm = 1
-- >200 = 2
-- >300 = 3
+- (>200) = 2
+- (>300) = 3
 
 ## a1cresult
 - None = 0
 - Norm = 1
-- >7 = 7
-- >8 = 8
+- (>7) = 7
+- (>8) = 8
 
 ## metformin 
 - No = 0
@@ -360,5 +360,5 @@ This dictionary starts from the first column and proceeds down to the last one i
 
 ## readmitted
 - NO = 0
-- <30 = 1
-- >30 = 5
+- (<30) = 1
+- (>30) = 5
