@@ -8,12 +8,35 @@ Utilize a dataset from the UCI Machine Learning Repository from 130 hospitals in
 
 ## Packages: 
 ```python
+    # Default packages
     import pandas as pd
     import numpy as np
-    import strealit as st
-    from sklearn.metrics import accuracy_score
-    from sklearn.model_selection import train_test_split
-    from supervised.automl import AutoML
-    import datetime as dt
-    import re
+    import matplotlib.pyplot as plt  # Graphs & plots
+    import seaborn as sns   # Data visualizations
+    import csv # Some extra functionalities for csv  files - reading it as a dictionary
+    from lightgbm import LGBMClassifier # sklearn is for machine learning and statistical modeling including classification, regression, clustering and dimensionality reduction 
+
+    from sklearn.model_selection import train_test_split, cross_validate   #break up dataset into train and test sets
+    from sklearn.linear_model import LogisticRegression
+    from sklearn.ensemble import RandomForestClassifier
+    from sklearn.model_selection import cross_val_score
+    from sklearn.preprocessing import StandardScaler, MinMaxScaler
+
+
+    # Packages relating to missing data
+    import missingno as msno
+    import re    # This library is used to perform regex pattern matching
+
+    # Required functions from sklearn
+    from sklearn.linear_model import LogisticRegression, LinearRegression
+    from sklearn.neighbors import KNeighborsClassifier
+    from sklearn.tree import DecisionTreeClassifier
+    from sklearn.ensemble import RandomForestClassifier
+    from sklearn.svm import LinearSVC
+    from sklearn.ensemble import GradientBoostingClassifier
+    from catboost import CatBoostClassifier
+    import xgboost as xgb
+    from sklearn.metrics import roc_auc_score, accuracy_score, precision_score, recall_score, classification_report, make_scorer
+    from sklearn.linear_model import SGDClassifier
+    from sklearn.model_selection import GridSearchCV, RandomizedSearchCV, train_test_split
 ```
