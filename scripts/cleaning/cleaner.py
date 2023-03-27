@@ -212,7 +212,7 @@ diabetesMed_dict = {'No': 0, 'Yes': 1}
 df['diabetesMed'] = df['diabetesMed'].map(diabetesMed_dict)
 
 ## Readmitted
-readmitted_dict = {'NO': 0, '>30': 1, '<30': 5}
+readmitted_dict = {'NO': 0, '>30': 0, '<30': 1}
 df['readmitted'] = df['readmitted'].map(readmitted_dict)
 
 
