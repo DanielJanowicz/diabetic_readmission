@@ -4,11 +4,12 @@ import numpy as np
 
 ## Raw data
 raw = pd.read_csv('data/raw/raw_diabetic_data.csv')
+clean = pd.read_csv('data/clean_diabetic_data.csv')
 raw.columns
 df = raw
 
 ## Assembling the data dictionary
-# print(raw['medical_specialty'].unique())  ~  Utilized for obtaining all unique values for each column
+# print(clean['medical_specialty'].unique())  # ~  Utilized for obtaining all unique values for each column
 
 ## Race
 race_dict = {'Caucasian': 1, 'AfricanAmerican': 2, 'Hispanic': 3, 'Asian': 4, 'Other': 5, '?': 0}
@@ -218,3 +219,15 @@ df['readmitted'] = df['readmitted'].map(readmitted_dict)
 
 ## Saving the clean data
 df.to_csv('data/clean_diabetic_data.csv')
+
+
+
+## Removing NaN values from the cleaned set
+clean['medical_specialty'] = clean['medical_specialty'].fillna(0)
+clean.columns
+
+## Dropping unknown column
+clean = clean.drop(columns=['Unnamed: 0'])
+
+## Resaving to CSV
+clean.to_csv('data/clean_diabetic_data.csv')

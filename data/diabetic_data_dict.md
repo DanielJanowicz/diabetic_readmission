@@ -362,4 +362,4 @@ This dictionary starts from the first column and proceeds down to the last one i
 ## readmitted
 - NO = 0
 - (<30) = 1
-- (>30) = 5
+- (>30) = 0
