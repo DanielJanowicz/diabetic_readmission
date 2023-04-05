@@ -39,4 +39,34 @@ Utilize a dataset from the UCI Machine Learning Repository from 130 hospitals in
     from sklearn.metrics import roc_auc_score, accuracy_score, precision_score, recall_score, classification_report, make_scorer
     from sklearn.linear_model import SGDClassifier
     from sklearn.model_selection import GridSearchCV, RandomizedSearchCV, train_test_split
+
+    from sklearn.model_selection import KFold,cross_val_score, RepeatedStratifiedKFold,StratifiedKFold
+    from sklearn.impute import SimpleImputer
+    from sklearn.pipeline import Pipeline
+    from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+    from sklearn.preprocessing import OneHotEncoder,StandardScaler,PowerTransformer
+    from sklearn.compose import ColumnTransformer
+    from sklearn.pipeline import Pipeline
+    from sklearn.impute import KNNImputer,SimpleImputer
+    from sklearn.compose import make_column_transformer
+    from imblearn.pipeline import make_pipeline
+    from sklearn.svm import SVC
+    from sklearn.impute import SimpleImputer
+    from sklearn.dummy import DummyClassifier
+    from imblearn.over_sampling import SMOTE
+    from sklearn.neighbors import KNeighborsClassifier
+    from sklearn.metrics import confusion_matrix, accuracy_score, balanced_accuracy_score,\
+                                precision_score, recall_score, roc_auc_score,\
+                                plot_confusion_matrix, classification_report, plot_roc_curve, f1_score
+
+    import plotly 
+    import plotly.express as px
+    import plotly.graph_objs as go
+    import plotly.offline as py
+    from plotly.offline import iplot
+    from plotly.subplots import make_subplots
+    import plotly.figure_factory as ff
+
+    import warnings
+    warnings.filterwarnings("ignore")
 ```
